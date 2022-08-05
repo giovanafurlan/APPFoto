@@ -17,7 +17,6 @@ export default function App() {
     })
     .then(data => {
       const foto = data.message;
-      console.log(foto);
       setResult(foto);
     });
   };
